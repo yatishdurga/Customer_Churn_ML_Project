@@ -12,7 +12,7 @@ Predict customer churn for a telecom dataset using a clear, end-to-end ML workfl
 ## 1) Quick Start
 
 ```bash
-# 1) Clone
+ 1) Clone
 git clone https://github.com/yatishdurga/Customer_Churn_ML_Project.git
 cd Customer_Churn_ML_Project
 
@@ -36,24 +36,24 @@ jupyter notebook  # or: jupyter lab
 # Run cells top → bottom (Kernel > Restart & Run All)
 
 
-## 📒 Workflow
+ 📒 Workflow
 
-### 🔍 EDA
+ 🔍 EDA
 - Inspect **dtypes**, missing values, and class balance  
 - Visualize **churn distribution** & key feature relationships  
 
-### 🧹 Preprocessing
+ 🧹 Preprocessing
 - Clean numeric fields (e.g., convert text to numeric where needed)  
 - Encode categorical variables (one-hot encoding)  
 - Split into **train/test sets** (fixed random seed)  
 - *(Optional)* Handle imbalance (e.g., class weights, SMOTE)  
 
-### 🤖 Modeling
+ 🤖 Modeling
 - Start with a **baseline model** (e.g., Logistic Regression)  
 - Experiment with **tree-based / boosted models** (Random Forest, XGBoost)  
 - Perform **light hyperparameter tuning** (as needed)  
 
-### 📊 Evaluation
+ 📊 Evaluation
 - Metrics: **Accuracy, Precision, Recall, F1-score, ROC-AUC**  
 - Plots: **Confusion Matrix, ROC curve**  
 - Analyze **feature importance / coefficients** (model-dependent)  
