@@ -34,3 +34,36 @@ jupyter notebook  # or: jupyter lab
 # 5) Open & run
 # Open: Customer_Churn_Prediction_using_ML.ipynb
 # Run cells top → bottom (Kernel > Restart & Run All)
+
+
+Exploratory Data Analysis (EDA)
+
+Inspect column types, missing values, class balance
+
+Basic distributions and churn breakdowns
+
+Preprocessing
+
+Clean numeric fields (e.g., convert to numeric where needed)
+
+Encode categorical features (e.g., one-hot encoding)
+
+Train/test split (reproducible random seed)
+
+(Optional) Handle class imbalance (class weights / SMOTE)
+
+Modeling
+
+Start with a simple baseline classifier
+
+Try tree-based models (optional)
+
+Hyperparameter tweaks as needed
+
+Evaluation
+
+Accuracy, Precision, Recall, F1
+
+ROC-AUC + confusion matrix
+
+Feature importance / coefficients (model-dependent)
